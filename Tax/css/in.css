@@ -1,0 +1,24 @@
+
+/* скрываем чекбоксы и блоки с содержанием */
+.hide, .hide + label ~ div {
+    display: none; 
+}
+/* вид текста label */
+.hide + label,
+.hide:checked + label {
+    padding: 0;
+    cursor: pointer;
+    border-bottom: 1px dotted green;
+}
+/* вид текста label при активном переключателе */
+.hide:checked + label {
+    border-bottom: 0;
+}
+/* когда чекбокс активен показываем блоки с содержанием  */
+.hide:checked + label + div {
+    display: block; 
+    -moz-box-shadow: inset 3px 3px 10px #7d8e8f;
+    -webkit-box-shadow: inset 3px 3px 10px #7d8e8f;
+    box-shadow: inset 3px 3px 10px #7d8e8f;
+    padding: 10px; 
+}

@@ -1,0 +1,17 @@
+.dob{
+    position: absolute;
+    top: 0px;
+    left: 80px;
+}
+
+.pass{
+   position: absolute;
+    top: 0px;
+    left: 300px;
+}
+
+p{
+font-family: 'Ubuntu';
+font-size: 14px; 
+color: #FFF;
+}

@@ -1,0 +1,34 @@
+/* Убираем ненужные элементы при печати */
+button {
+    display: none;
+}
+
+/* Настраиваем размеры и выравнивание таблицы */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+/* Настраиваем стиль заголовков таблицы */
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* Настраиваем стиль ячеек таблицы */
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Скрываем элементы при печати, кроме таблицы */
+@media print {
+    * {
+        visibility: hidden;
+    }
+
+    table {
+        visibility: visible;
+    }
+}

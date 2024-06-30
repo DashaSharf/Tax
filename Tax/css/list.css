@@ -1,0 +1,46 @@
+
+/* скрываем чекбоксы и блоки с содержанием */
+.hide, .hide + label ~ div {
+    display: none; 
+}
+/* вид текста label */
+.hide + label,
+.hide:checked + label {
+    padding: 0;
+    cursor: pointer;
+}
+/* вид текста label при активном переключателе */
+.hide:checked + label {
+    border-bottom: 0;
+}
+/* когда чекбокс активен показываем блоки с содержанием  */
+.hide:checked + label + div {
+    display: block; 
+    padding: 10px; 
+}
+
+
+label{
+     text-decoration: none; 
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    color: #FFF;
+    line-height: 20px;
+    justify-content: space-between;
+    display: flex;
+    position: relative;
+    left: 40px;
+}
+
+.list{
+    list-style-type: none;
+    text-decoration: none; 
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFF;
+    text-align: right; 
+}

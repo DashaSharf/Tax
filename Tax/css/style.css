@@ -1,0 +1,182 @@
+body{
+/*font-family: ' Playfair Display ', serif;*/
+font-family: 'Ubuntu';
+padding: 0;
+margin: 0;
+position:relative;
+max-width:1440px;
+margin: 0 auto;
+background: #1155A6;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+color: #212529;
+-webkit-text-size-adjust: 100%;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header{
+padding-bottom: 0px;
+}
+
+header.container{
+    width: 930px;
+    margin: 0 auto;  
+}
+
+.glav{
+   position: absolute;
+   width: 240px;
+   height: 240px;
+   left: 246px;
+   top: 120px;
+}
+
+.fon_img #glavBig{
+	width:50%; 
+}
+
+
+.glavBig{
+    width:550px;
+    display:inline-block;
+    position: absolute;
+    left: 950px;
+    height: 800px;
+}
+
+.title_text{
+    color: #FFF;
+    font-size: 36px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:lighter;
+}
+
+.title_text a{
+    position: absolute;
+    width: 293px;
+    height: 150px;
+    left: 235px;
+    top: 360px;
+}
+
+/*Поля для ввода данных*/
+
+
+.vhod{
+  position: absolute;
+  top: 420px;
+  left: 200px;
+}
+
+input[type="text"]
+{
+font-family: 'Ubuntu';
+font-size: 18px;
+box-sizing: border-box;
+padding: 10px 20px;
+width: 300px;
+height: 28px;
+background: #fff;
+border: 1px solid #DCDCDF;
+border-radius: 3px;
+margin-left: 5%;
+font-weight: 100;
+}
+
+input[type="password"]
+{
+font-family: 'Ubuntu';
+font-size: 18px;
+box-sizing: border-box;
+padding: 10px 20px;
+width: 300px;
+height: 28px;
+background: #fff;
+border: 1px solid #DCDCDF;
+border-radius: 3px;
+margin-left: 5%;
+font-weight: 100;
+}
+
+
+.button {
+   box-sizing: border-box;
+   position: absolute;
+   left: 50px;
+   top: 120px;
+   background: #1155A6;
+   mix-blend-mode: normal;
+   border: 2px solid #FFF;
+   border-radius: 12px;
+   cursor: pointer;
+   transition: 1s;
+   width: 214px;
+   height: 45px;
+   flex-shrink: 0;
+}
+
+
+.butt{
+   box-sizing: border-box;
+   position: absolute;
+   left: 50px;
+   top: 150px;
+   background: #1155A6;
+   mix-blend-mode: normal;
+   border: 2px solid #FFF;
+   border-radius: 12px;
+   cursor: pointer;
+   width: 214px;
+   height: 45px;
+   display: inline;
+}
+
+
+
+
+/*.button_logIn{
+   box-sizing: border-box;
+   position: absolute;
+   left: 241px;
+   top: 531px;
+   background: #1155A6;
+   mix-blend-mode: normal;
+   border: 2px solid #FFF;
+   border-radius: 12px;
+   cursor: pointer;
+   transition: 1s;
+   width: 214px;
+   height: 45px;
+   flex-shrink: 0;
+}*/
+
+.button a{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.button_logIn a{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    color: #FFF;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}

@@ -1,0 +1,26 @@
+.print {
+	position: absolute;
+	left: 1050px;
+   top: 80px;
+}
+
+button {
+	  box-sizing: border-box;
+   position: absolute;
+   background: #1155A6;
+   mix-blend-mode: normal;
+   border: 2px solid #FFF;
+   border-radius: 12px;
+   cursor: pointer;
+   width: 200px;
+   height: 40px;
+   display: inline;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #FFF;
+}
+
+
